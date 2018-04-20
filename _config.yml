@@ -3,7 +3,7 @@ email:             rdviertel@gmail.com
 description:       Lesson notes
 author:            Grandview 9th Ward Elders Quorum
 baseurl:           ""
-url:               "viertel.me"
+url:               "rviertel.github.io"
 
 # Build settings
 markdown:          kramdown
