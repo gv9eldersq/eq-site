@@ -1,4 +1,42 @@
 ---
-layout: home
-background: '/img/bg-index.jpg'
+layout: default
 ---
+{% assign post = site.posts.first %}
+
+<!-- Page Header -->
+{% if post.background %}
+<header class="masthead" style="background-image: url('{{ post.background | prepend: site.baseurl | replace: '//', '/' }}')">
+{% else %}
+<header class="masthead">
+{% endif %}
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-heading">
+          <h1>
+            <a href="{{ post.talkurl }}">{{ post.title }}</a>
+          </h1>
+          {% if post.subtitle %}
+          <h2 class="subheading">{{ post.subtitle }}</h2>
+          {% endif %}
+          <span class="meta">
+            {{ post.speaker }}, {{ post.conferenceSession }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+
+      <div class="blog-index">
+        {% assign content = post.content %}
+        {% include post_detail.html %}
+      </div>
+
+    </div>
+  </div>
+</div>

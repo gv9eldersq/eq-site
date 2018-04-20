@@ -1,2 +1,21 @@
 // Import Core Clean Blog SCSS
 @import "../assets/vendor/startbootstrap-clean-blog/scss/clean-blog.scss";
+
+blockquote {
+    font-style: italic;
+    color: #273A59;
+    // background: yellow;
+}
+
+a {
+  color: #007bff;
+}
+
+
+h1 a {
+  color: #ffffff;
+}
+
+h1 a:focus, h1 a:hover {
+    color: #ffffff;
+}

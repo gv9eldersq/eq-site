@@ -1,14 +1,9 @@
-title:             Clean Blog
-email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
-author:            Start Bootstrap
-baseurl:           "/startbootstrap-clean-blog-jekyll"
-url:               "http://blackrockdigital.github.io"
-
-# Social Profiles
-twitter_username:  SBootstrap
-github_username:   BlackrockDigital
-facebook_username: StartBootstrap
+title:             Grandview 9th Ward Elders Quorum Lessons
+email:             rdviertel@gmail.com
+description:       Lesson notes
+author:            Grandview 9th Ward Elders Quorum
+baseurl:           ""
+url:               "viertel.me"
 
 # Build settings
 markdown:          kramdown
