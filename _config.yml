@@ -2,8 +2,8 @@ title:             Grandview 9th Ward Elders Quorum Lessons
 email:             rdviertel@gmail.com
 description:       Lesson notes
 author:            Grandview 9th Ward Elders Quorum
-baseurl:           "/eq-site"
-url:               "rviertel.github.io"
+baseurl:           "/"
+url:               "gv9eq.org"
 
 # Build settings
 markdown:          kramdown
